@@ -1,0 +1,82 @@
+body{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-bottom: 1.5%;
+    overflow-x: hidden;
+}
+
+@media (min-width: 900px) { /*DESKTOP*/
+
+	header{
+		padding-top: 1%;
+		padding-bottom: 0%;
+	}
+
+	.heading1{
+		font-size: 4vw;
+		width: 50%;
+		padding-top: 5%;
+	}
+
+	.heading2{
+		font-size: 1.8vw;
+		line-height: 0.5;
+	}
+
+	.heading3{
+		font-size: 3.6vw;
+	}
+
+	.paragraph1{
+		width: 40%;
+		font-size: 2.4vw;
+		color: #4A4A4A;
+	}
+
+	.paragraph2{
+		font-size: 2vw;
+		color: #4A4A4A;
+	}
+
+	.section-one{
+		height: 33vw;
+		padding-top: 5%;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.section-feature-left{
+		border-radius: 2vw;
+		height: 33vw;
+		margin-top: 1%;
+		padding-top: 10%;
+		padding-right: 50%;
+		padding-left: 10%;
+		left: 0;
+	}
+
+	.section-feature-right{
+		border-radius: 2vw;
+		height: 33vw;
+		margin-top: 1%;
+		padding-top: 10%;
+		padding-right: 10%;
+		padding-left: 50%;
+		right: 0;
+	}
+
+	.main-video{
+		float: right;
+		margin-right: 10%;
+		margin-top: 2.5%;
+		border-radius: 2vw;
+  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1vw 3vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 0 1vw 3vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 0 1vw 3vw;
+	}
+
+	footer{
+		height: 12vw;
+	}
+
+}
+
