@@ -19,24 +19,41 @@ body{
 
 	.heading2{
 		font-size: 1.7vw;
-		line-height: 0.5;
+		line-height: 1.0;
 		opacity: 0.3;
 	}
 
 	.heading3{
 		font-size: 3.6vw;
-		line-height: 0.5;
+		line-height: 1.0;
 	}
 
 	.paragraph1{
 		width: 40%;
-		font-size: 2.4vw;
-		opacity: 0.5;
+		font-size: 2.2vw;
+		opacity: 1.0;
 	}
 
 	.paragraph2{
 		font-size: 2vw;
 		color: #4A4A4A;
+	}
+
+	.sub-paragraph{
+		font-size: 1.8vw;
+		color: #4A4A4A;
+		width: 50%;
+		opacity: 0.8;
+	}
+
+	.textDivLeft{
+		padding-top: 15%;
+		padding-left: 10%;
+	}
+
+	.textDivRight{
+		padding-top: 15%;
+		padding-right: 10%;
 	}
 
 	.section-one{
@@ -49,7 +66,16 @@ body{
 	.main-video{
 		float: right;
 		margin-right: 10%;
-		margin-top: 2.5%;
+		border-radius: 2vw;
+  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		width: 264px;
+  		height: 471px;
+	}
+
+	.feature-video{
+		margin-left: 20%;
 		border-radius: 2vw;
   		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
   		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
@@ -62,18 +88,22 @@ body{
 		margin-top: 5%;
 		height: 42vw;
 		width: 42vw;
-		background-color: #4A4A4A;
+		background-color: #fff;
 		float: left;
 		margin-left: 5%;
+/*		border-style: solid;
+    	border-width: medium;*/
 	}
 
 	.sectionRight{
 		margin-top: 5%;
 		height: 42vw;
 		width: 42vw;
-		background-color: #4A4A4A;
+		background-color: #fff;
 		float: right;
 		margin-right: 5%;
+/*		border-style: solid;
+    	border-width: medium;*/
 	}
 
 	footer{
