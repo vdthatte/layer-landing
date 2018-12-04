@@ -95,6 +95,11 @@ body{
     	border-width: medium;*/
 	}
 
+	.stock{
+		height: 42vw;
+		width: 42vw;
+	}
+
 	.sectionRight{
 		margin-top: 5%;
 		height: 42vw;
