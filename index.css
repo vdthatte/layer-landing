@@ -1,6 +1,5 @@
 body{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    padding-bottom: 1.5%;
     overflow-x: hidden;
 }
 
@@ -41,7 +40,7 @@ body{
 	}
 
 	.section-one{
-		height: 48vw;
+		height: 42vw;
 		padding-top: 5%;
 		padding-right: 10%;
 		padding-left: 10%;
@@ -55,6 +54,8 @@ body{
   		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
   		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
   		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		width: 264px;
+  		height: 471px;
 	}
 
 	.sectionLeft{
