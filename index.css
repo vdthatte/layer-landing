@@ -8,15 +8,14 @@ body{
 
 	header{
 		padding-top: 1%;
-		padding-bottom: 0%;
 	}
 
 	.heading1{
 		font-size: 4vw;
 		width: 50%;
-		padding-top: 5%;
+		padding-top: 10%;
 		color: #000;
-		opacity: 0.2;
+		opacity: 0.9;
 	}
 
 	.heading2{
@@ -33,7 +32,7 @@ body{
 	.paragraph1{
 		width: 40%;
 		font-size: 2.4vw;
-		color: #4A4A4A;
+		opacity: 0.5;
 	}
 
 	.paragraph2{
@@ -42,26 +41,8 @@ body{
 	}
 
 	.section-one{
-		height: 33vw;
+		height: 48vw;
 		padding-top: 5%;
-		padding-right: 10%;
-		padding-left: 10%;
-	}
-
-	.section-feature-left{
-		border-radius: 2vw;
-		height: 33vw;
-		margin-top: 1%;
-		padding-top: 10%;
-		padding-right: 10%;
-		padding-left: 10%;
-	}
-
-	.section-feature-right{
-		border-radius: 2vw;
-		height: 33vw;
-		margin-top: 1%;
-		padding-top: 10%;
 		padding-right: 10%;
 		padding-left: 10%;
 	}
@@ -76,30 +57,27 @@ body{
   		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
 	}
 
-	.leftSectionImg{
-		float: right;
-		right: 0;
-	}
-
-	.rightSectionImg{
+	.sectionLeft{
+		margin-top: 5%;
+		height: 42vw;
+		width: 42vw;
+		background-color: #4A4A4A;
 		float: left;
-		left: 0;
+		margin-left: 5%;
 	}
 
-	.textLeft{
-		float: left;
-		width: 40%;
-		padding-right: 30%;
-	}
-
-	.textRight{
+	.sectionRight{
+		margin-top: 5%;
+		height: 42vw;
+		width: 42vw;
+		background-color: #4A4A4A;
 		float: right;
-		width: 40%;
-		padding-left: 30%;
+		margin-right: 5%;
 	}
 
 	footer{
 		height: 12vw;
+		padding-bottom: 10%;
 	}
 
 }
