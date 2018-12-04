@@ -15,15 +15,19 @@ body{
 		font-size: 4vw;
 		width: 50%;
 		padding-top: 5%;
+		color: #000;
+		opacity: 0.2;
 	}
 
 	.heading2{
-		font-size: 1.8vw;
+		font-size: 1.7vw;
 		line-height: 0.5;
+		opacity: 0.3;
 	}
 
 	.heading3{
 		font-size: 3.6vw;
+		line-height: 0.5;
 	}
 
 	.paragraph1{
@@ -49,9 +53,8 @@ body{
 		height: 33vw;
 		margin-top: 1%;
 		padding-top: 10%;
-		padding-right: 50%;
+		padding-right: 10%;
 		padding-left: 10%;
-		left: 0;
 	}
 
 	.section-feature-right{
@@ -60,8 +63,7 @@ body{
 		margin-top: 1%;
 		padding-top: 10%;
 		padding-right: 10%;
-		padding-left: 50%;
-		right: 0;
+		padding-left: 10%;
 	}
 
 	.main-video{
@@ -69,9 +71,31 @@ body{
 		margin-right: 10%;
 		margin-top: 2.5%;
 		border-radius: 2vw;
-  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1vw 3vw;
-  		-moz-box-shadow: rgba(0,0,0,0.3) 0 1vw 3vw;
-  		box-shadow: rgba(0, 0, 0, 0.3) 0 1vw 3vw;
+  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+	}
+
+	.leftSectionImg{
+		float: right;
+		right: 0;
+	}
+
+	.rightSectionImg{
+		float: left;
+		left: 0;
+	}
+
+	.textLeft{
+		float: left;
+		width: 40%;
+		padding-right: 30%;
+	}
+
+	.textRight{
+		float: right;
+		width: 40%;
+		padding-left: 30%;
 	}
 
 	footer{
