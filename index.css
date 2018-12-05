@@ -6,7 +6,33 @@ body{
 @media (min-width: 900px) { /*DESKTOP*/
 
 	header{
+		margin-left: 30%;
+    	margin-right: 30%;
+    	position: fixed;
+    	background-color: #fff;
+    	width: 40%;
+    	border-top-right-radius: 10px;
+    	border-top-left-radius: 10px;
+    	z-index: 999;
+    	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+  		bottom: 0;
+	}
+
+	.download{
+		height: 4vw;
+		padding-top: 3%;
+		padding-bottom: 2%;
+		padding-right: 5%;
+		float: right;
+	}
+
+	.logo{
+		height: 6vw;
 		padding-top: 1%;
+		padding-left: 5%;
+
 	}
 
 	.heading1{
@@ -58,7 +84,7 @@ body{
 
 	.section-one{
 		height: 42vw;
-		padding-top: 5%;
+		padding-top: 0%;
 		padding-right: 10%;
 		padding-left: 10%;
 	}
@@ -67,6 +93,7 @@ body{
 		float: right;
 		margin-right: 10%;
 		border-radius: 2vw;
+		margin-top: 3%;
   		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
   		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
   		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
