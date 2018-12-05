@@ -3,6 +3,21 @@ body{
     overflow-x: hidden;
 }
 
+.spaceImage{
+
+}
+
+.spaceBody{
+	margin-top: 10%;
+	background-color: #000;
+}
+
+.spaceParagraph{
+	color: #fff;
+	width: 50%;
+	padding-top: 5%;
+}
+
 @media (min-width: 900px) { /*DESKTOP*/
 
 	header{
@@ -171,4 +186,6 @@ body{
 	}
 
 }
+
+
 
