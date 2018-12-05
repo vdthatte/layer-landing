@@ -138,6 +138,19 @@ body{
 		width: 82vw;
 	}
 
+	.igtv{
+		height: 72vw;
+		width: 72vw;
+	}
+
+	.apps{
+		height: 32vw;
+		width: 32vw;
+		padding-left: 30%;
+		padding-bottom: 20%;
+
+	}
+
 	.sectionRight{
 		width: 84vw;
 		background-color: #fff;
