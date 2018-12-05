@@ -19,9 +19,9 @@ body{
 	}
 
 	.download{
-		height: 16vw;
+		height: 14vw;
 		padding-top: 10%;
-		padding-left: 23%;
+		padding-left: 25%;
 	}
 
 	.logo{
@@ -99,9 +99,9 @@ body{
 		margin-left: 5%;
 		border-radius: 7vw;
 		margin-top: 10%;
-  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 2vw 3vw 5vw;
-  		-moz-box-shadow: rgba(0,0,0,0.3) 2vw 3vw 5vw;
-  		box-shadow: rgba(0, 0, 0, 0.3) 2vw 3vw 5vw;
+  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 3vw 4vw 9vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 3vw 4vw 9vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 3vw 4vw 9vw;
   		width: 264px;
   		height: 471px;
 	}
@@ -111,15 +111,17 @@ body{
 		margin-bottom: 10%;
 		margin-left: 12%;
 		border-radius: 7vw;
-  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
-  		-moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
-  		box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
-  		width: 264px;
-  		height: 471px;
+  		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 3vw 4vw 9vw;
+  		-moz-box-shadow: rgba(0,0,0,0.3) 3vw 4vw 9vw;
+  		box-shadow: rgba(0, 0, 0, 0.3) 3vw 4vw 9vw;
+  		width: 260px;
+  		height: 472px;
 	}
 
 	.section{
 		margin-top: 30%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 
 	.sectionLeft{
